@@ -1,0 +1,11 @@
+lynx(1) doesn't read from the freedesktop applications data (typeically at
+/usr/share/applications/), so we bring the freedesktop applications data to
+lynx(1).
+
+== Documentation ==
+See the POD embedded in the script; can be read with
+	perldoc -F xdg2lynxcfg.pl
+
+== Copyight ==
+Again, see the POD (section `COPYRIGHT'); there is also SPDX metadata in
+comments at the top of the script
